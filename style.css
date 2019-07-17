@@ -1,0 +1,111 @@
+/* TITLES & PARAGRAPHS */
+
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 400
+  color: rgb(50, 50, 50);
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h1 {
+  font-family: 'Passion One', cursive;
+  font-size: 40px;
+  font-weight: 700;
+  color:rgb(6, 95, 99);
+}
+
+h2 {
+  font-family: 'Darker Grotesque', sans-serif;;
+  font-weight:600;
+  font-size: 30px;
+  color:rgb(6, 95, 99);
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color:rgb(50, 50, 50);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(6, 95, 99)
+}
+
+/* STYLE */
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px grey;
+  padding:15px;
+  margin: 30px;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+#profile-pic {
+  width: 200px;
+}
+
+
+
+.btn-green {
+  background-color: rgb(72, 190, 183);
+  border-radius: 4px;
+  width:200px;
+  padding:5px;
+  margin: 10px auto;
+  font-size: 25px;
+}
+
+.list-in-line {
+  padding: 0px;
+}
+
+.list-in-line > li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.list-in-line > li > a {
+  color: rgb(72, 190, 183);
+  font-size: 40px;
+  margin: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
